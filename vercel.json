@@ -3,6 +3,16 @@
         "api/**/*.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        { "src": "/(.*)", "dest": "/api/index.php" },
+        { "src": "assets/styles/header.css", "dest": "assets/styles/header.css" },
+        { "src": "assets/styles/more.css", "dest": "assets/styles/more.css" },
+        { "src": "assets/styles/palette.css", "dest": "assets/styles/palette.css" },
+        { "src": "assets/styles/phones-more.css", "dest": "assets/styles/phones-more.css" },
+        { "src": "assets/styles/projects.css", "dest": "assets/styles/projects.css" },
+        { "src": "assets/styles/responsive-more.css", "dest": "assets/styles/responsive-more.css" },
+        { "src": "assets/styles/schedule.css", "dest": "assets/styles/schedule.css" },
+        { "src": "assets/styles/styles.css", "dest": "assets/styles/styles.css" },
+
+        { "src": "assets/js/responsive-navbar.js", "dest": "assets/js/responsive-navbar.js" }
     ]
 }
