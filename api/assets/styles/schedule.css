@@ -1,0 +1,23 @@
+.schedule{
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+}
+
+.schedule-table{
+    border: 2px var(--color-secondary) solid;
+    border-spacing: 5vh;
+    border-radius: 4px;
+}
+
+.table-header > tr > td{
+    border: 3px var(--color-secondary) solid;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2%;
+}
+
+.link-more{
+    text-align: center;
+    margin-top: 3%;
+}

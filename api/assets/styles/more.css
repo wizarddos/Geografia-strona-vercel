@@ -1,0 +1,184 @@
+@import url("palette.css");
+
+.content{
+    margin: 3% 0;
+    text-align: center;
+}
+
+.section-text{
+    width: 50%;
+    margin: 3% auto;
+    text-align: justify;
+}
+
+.main-roles-and-more{
+    width: 100%;
+}
+
+.roles-and-team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.characteristics{
+    text-align: center;
+}
+
+.left-header{
+    text-align: left;
+}
+
+.card{
+    background-color: var(--color-secondary);
+    border: 2px var(--color-primary) solid;
+    border-radius: 7px;
+    padding: 3%;
+    width: 40%;
+}
+
+.card > *{
+    color: var(--color-primary);
+}
+
+.card-list > *{
+    color: var(--color-primary);
+}
+
+.card-list{
+    list-style-position: inside;
+    margin: 0 auto;
+}
+
+
+.role-icon{
+    width: 5%;
+}
+
+.list-centered{
+    width: 50%;
+    margin: 2% auto;
+}
+
+.stages-header{
+    margin-top: 10%;
+}
+
+.stages-project{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% auto;
+}
+
+.dash::after{
+    content: "\2192"; /* strzałka w prawo w unicode */
+    color: var(--color-secondary);
+    width: 5%;
+    font-size: 115%;
+    line-height: 10;
+}
+
+.stage{
+    width: 8%;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.tools{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content:center ;
+}
+
+.tool-logo{
+    width: 10%;
+}
+
+.tool{
+    width: 50%;
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.tool-name{
+    font-size: 2rem;
+    display: flex;
+    align-content: center;
+    height: 100%;
+}
+
+
+.techniques{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.techniques-half{
+    width: 50%;
+}
+
+.techniques-img{
+    text-align: center;
+}
+
+.techniques-list{
+    padding-top: 3%;
+}
+
+
+.empathy-map{
+    width: 95%;
+    text-align: center;
+    padding: 2.3%;
+}
+
+.solutions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.solutions-content{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.solutions-card{
+    width: 33%;
+}
+
+.list-smaller{
+    font-size: smaller;
+}
+
+.decisions{
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.deploy-item{
+    width: 100%;
+    height: 100%;
+}
+
+
+    
+.deploy-row{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.deploy-item{
+    width: 40%;
+    color: var(--color-primary);
+}

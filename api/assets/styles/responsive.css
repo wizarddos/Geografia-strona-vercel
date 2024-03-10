@@ -1,0 +1,49 @@
+@media (max-width: 660px){
+
+    /* main page content */
+
+    .about-dt{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .about-dt > *{
+        width: 100%;
+        text-align: center;
+    }
+
+    .splitter::after{
+        content: "";
+        display: none;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .project-excerpts{
+        flex-direction: column;
+    }
+
+    .project-card{
+        width: 100%;
+        border-bottom: 2px var(--color-three) solid;
+    }
+    
+    .project-title{
+        text-align: center;
+        width: 100%;
+    }
+
+    .excerpt{
+        padding: 0 2%;
+    }
+
+    .project-readMore{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3%;
+        color: var(--color-fifth)
+    }
+}

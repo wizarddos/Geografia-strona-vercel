@@ -1,0 +1,105 @@
+@media (max-width: 660px){
+
+    .roles-and-team{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .roles{
+        width: 90%;
+        margin: 2px auto;
+    }
+
+    .teams{
+        width: 90%;
+        text-align: left; 
+        margin: 2px auto;
+    }
+
+    .characteristics{
+        width: 90%;
+    }
+
+    .special-header{
+        text-align: left;
+    }
+
+    .list-centered{
+        text-align: left;
+        width: 100%;
+    }
+
+    .stages-project{
+        flex-direction: column;
+    }
+
+    .stage{
+        width: 80%;
+        margin: 0 auto;
+        font-size: larger;
+    }
+
+    .dash::after{
+        content: "\02193"; /* Strzałka w dół jako kod UNICODE*/
+        color: var(--color-secondary);
+        width: 1%;
+        font-size: 200%;
+        line-height: 2;
+    }
+
+    .techniques-list{
+        width: 100%;
+
+        text-align: left;
+    }
+
+    .techniques{
+        flex-direction: column;
+    }
+
+    .techniques-img{
+        text-align: center;
+        width: 100%;
+    }
+
+    .empathy-map{
+        width: 100%;
+    }
+
+    .empathy-map::after{
+        content: "Co myśli, co czuje, co słyszy, co widzi, co mówi i robi. \000A Jakie ma korzyści i bolączki";
+        color: var(--color-primary);
+    }
+
+    .solutions-content{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-list{
+        list-style-position: inside;
+    }
+    
+
+    .solutions{
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        padding: 0;
+    }
+
+    .solutions-card{
+        width: 94%;
+        padding: 3%;
+    }
+
+    .decisions{
+        width: 90%;
+    }
+
+    .tool{
+        width: 60%;
+    }
+}

@@ -1,0 +1,71 @@
+@media (max-width: 1400px) {
+    .solutions-content{
+        width: 60%;
+    }
+
+    .solutions-card{
+        text-align: left;
+    }
+
+    .solutions > .card-list{
+        padding: 0;
+    }
+
+    .section-text{
+        text-align: left;
+    }
+
+    .special-header{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 900px){
+    .stage{
+        width: 8%;
+        height: 13%;
+        display: block;
+        text-align: center;
+        font-size: x-small;
+        padding: 3.5%;
+        padding-left: 3%;
+    }
+
+    .dash::after{
+        color: var(--color-secondary);
+        width: 1%;
+        font-size: 100%;
+        line-height: 5;
+    }
+
+    .characteristics{
+        width: 95%;
+    }
+
+    .solutions{
+        width: 100%;
+    }
+
+    .solutions-card{
+        width: 100%;
+    }
+    .solutions-content{
+        width: 100%;
+        padding: 0;
+    }
+
+    .tools{
+        width: 100%;
+    }
+
+    .tool-logo{
+        width: 25%;
+    }
+
+    .section-text{
+        width: 80%;
+        text-align: left;
+    }
+
+}

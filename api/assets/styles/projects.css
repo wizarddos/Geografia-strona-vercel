@@ -1,0 +1,96 @@
+
+.text-middle{
+    width: 40%;
+    text-align: justify;
+    margin: 1% auto;
+}
+
+.project-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-4-3{
+    width: 40%;
+    height: 30%;
+    margin: 4% auto;
+}
+
+.text-with-img{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 50%;
+    margin: 2% auto;
+}
+
+.text-half{
+    width: 45%;
+    text-align: justify;
+}
+
+.image-2-1{
+    width: 100%;
+}
+
+.img-half{
+    width: 50%;
+}
+
+.leaflet-sect{
+    margin: 6% auto;
+    width: 40%;
+}
+
+.leaflet{
+    width: 100%;
+}
+
+@media (max-width: 1000px){
+    .text-with-img{
+        flex-direction: column;
+    }
+
+    .img-half{
+        width: 100%;
+    }
+
+    .text-half{
+        width: 100%;
+    }
+    .leaflet-sect{
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 660px){
+    .text-middle{
+        width: 80%;
+    }
+
+    .image-4-3{
+        width: 80%;
+    }
+
+    .leaflet-sect{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 490px){
+    .text-middle{
+        width: 95%;
+    }
+
+    .image-4-3{
+        width: 95%;
+    }
+
+    .leaflet-sect{
+        width: 95%;
+    }
+}
