@@ -3,7 +3,7 @@
     <ul class = "header-projects-ul">
 
         <?php
-        require_once "elements/projects.php";
+        require_once "projects.php";
                 for($i = 0; $i <= 5; $i++){
                     echo "<li><a href='project.php?id=$i' class = 'project-li'>$projects[$i]</a></li>";
                 }
